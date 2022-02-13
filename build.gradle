@@ -10,6 +10,8 @@ repositories {
 }
 
 dependencies {
+    implementation 'org.glassfish.jersey.core:jersey-client:2.35'
+    implementation 'org.glassfish.jersey.inject:jersey-hk2:2.35'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
 }
