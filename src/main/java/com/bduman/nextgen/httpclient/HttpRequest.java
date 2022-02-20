@@ -4,7 +4,7 @@ import java.util.Map;
 import java.util.Optional;
 
 public class HttpRequest {
-    private Optional<Map<String, String>> headers;
+    private Optional<Map<String, Object>> headers;
     private Optional<String> body;
 
     public HttpRequest() {
@@ -12,11 +12,11 @@ public class HttpRequest {
         this.headers = Optional.empty();
     }
 
-    public Optional<Map<String, String>> getHeaders() {
+    public Optional<Map<String, Object>> getHeaders() {
         return headers;
     }
 
-    public void setHeaders(Optional<Map<String, String>> headers) {
+    public void setHeaders(Optional<Map<String, Object>> headers) {
         this.headers = headers;
     }
 
