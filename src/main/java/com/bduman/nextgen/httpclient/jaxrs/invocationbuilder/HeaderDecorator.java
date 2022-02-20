@@ -1,4 +1,4 @@
-package com.bduman.nextgen.httpclient.jaxrs;
+package com.bduman.nextgen.httpclient.jaxrs.invocationbuilder;
 
 import com.bduman.nextgen.httpclient.HttpRequest;
 

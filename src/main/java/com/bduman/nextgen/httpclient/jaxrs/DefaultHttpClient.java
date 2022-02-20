@@ -3,6 +3,7 @@ package com.bduman.nextgen.httpclient.jaxrs;
 import com.bduman.nextgen.httpclient.HttpRequest;
 import com.bduman.nextgen.httpclient.HttpResponse;
 import com.bduman.nextgen.httpclient.IHttpClient;
+import com.bduman.nextgen.httpclient.jaxrs.invocationbuilder.IInvocationBuilder;
 
 import javax.ws.rs.client.Invocation;
 import javax.ws.rs.client.WebTarget;

@@ -2,8 +2,8 @@ package com.bduman.nextgen.httpclient;
 
 import com.bduman.nextgen.httpclient.jaxrs.DefaultHttpClient;
 import com.bduman.nextgen.httpclient.jaxrs.DefaultInvocationBuilder;
-import com.bduman.nextgen.httpclient.jaxrs.HeaderDecorator;
-import com.bduman.nextgen.httpclient.jaxrs.IInvocationBuilder;
+import com.bduman.nextgen.httpclient.jaxrs.invocationbuilder.HeaderDecorator;
+import com.bduman.nextgen.httpclient.jaxrs.invocationbuilder.IInvocationBuilder;
 
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;

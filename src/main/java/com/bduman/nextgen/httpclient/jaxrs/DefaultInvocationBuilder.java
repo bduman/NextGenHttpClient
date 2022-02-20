@@ -1,6 +1,7 @@
 package com.bduman.nextgen.httpclient.jaxrs;
 
 import com.bduman.nextgen.httpclient.HttpRequest;
+import com.bduman.nextgen.httpclient.jaxrs.invocationbuilder.IInvocationBuilder;
 
 import javax.ws.rs.client.Entity;
 import javax.ws.rs.client.Invocation;
